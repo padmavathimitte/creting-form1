@@ -1,0 +1,78 @@
+<html>
+<head>
+	<title>form task2</title>
+	<style type="text/css">
+		.divider
+			{
+			margin-bottom:10px;
+			}
+			span{
+				color:#1a2873
+				}
+	</style>
+</head>
+<body>
+<form action="">
+<h1>SIGN UP</h1>
+<div class="divider">
+	<label for="firstname">FIRST NAME<span>*</span></label>
+	<input type="text" name="firstname" id="firstname" placeholder="ENTER FIRST NAME" required>
+</div>
+<div class="divider"
+	<label for="lastname">LAST NAME<span>*</span></label>
+	<input type="text" name="lastname" id="lastname" placeholder="ENTER LAST NAME" required>
+</div>
+<div class="divider">
+	<label>DATE OF BIRTH
+	<label for="date">DATE</label>
+	<input type="number" name="date" id="date" min="1" max="31" step="1" placeholder="DATE">
+	<label for="month">MONTH</label>
+	<input type="text" name="month" id="month" placeholder="MONTH">
+		<select>
+			<option>JANUARY</option>
+			<option>FEBRUARY</option>
+			<option>MARCH</option>
+			<option>APRIL</option>
+			<option>MAY</option>
+			<option>JUNE</option>
+			<option>JULY</option>
+			<option>AUG</option>
+			<option>SEPTEMBER</option>
+			<option>OCTOBER</option>
+			<option>NOVEMBER</option>
+			<option>DECEMBER</option>
+		</select>
+	<label for="year">YEAR</label>
+	<input type="number" name="year" id="year" min="1990" max="2020" step="5" placeholder="YEAR"></label>
+</div>
+<div class="divider">
+	<label for="email" autocomplete="off">ENTER EMAIL<span>*</span></label>
+	<input type="email" name="email" id="email" placeholder="ENTER YOUR EMAIL" required>
+</div>
+<div class="divider">
+	<label for="password">PASSWORD<span>*</span></label>
+	<input type="password" name="password" id="password" placeholder="PASSWORD" required>
+<div class="divider">
+	<label for="gender">GENDER</label>
+	<label for="female">FEMALE</label>
+	<input type="radio" name="female" id="female">
+	<label for="male">MALE</label>
+	<input type="radio" name="male" id="male">
+<div class="divider">
+	<label for="phone">PHONE.NO.</lable>
+	<select>
+	<option>+91</option>
+	<option>+81</option>
+	<option>+71</option>
+	<option>+61</option>
+	<option>+51</option>
+	</select>
+	<input type="tel" name="phone" id="phone" placeholder="123-456-7890" pattern="[6-9]{3}-[1-9]{3}-[1-9]{4}"
+</div>
+<div class="divider">
+<button type="submit">SUBMIT</button>
+<button type="reset">RESET</button>
+</div>
+</body>
+</html>
+	
